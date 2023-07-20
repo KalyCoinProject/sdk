@@ -23,8 +23,6 @@ export class Currency {
   public static readonly CURRENCY = {
     [ChainId.TESTNET]: new Currency(18, CHAINS[ChainId.TESTNET].symbol, CHAINS[ChainId.TESTNET].name),
     [ChainId.KALYCHAIN]: new Currency(18, CHAINS[ChainId.KALYCHAIN].symbol, CHAINS[ChainId.KALYCHAIN].name),
-    [ChainId.WAGMI]: new Currency(18, CHAINS[ChainId.WAGMI].symbol, CHAINS[ChainId.WAGMI].name),
-    [ChainId.COSTON]: new Currency(18, CHAINS[ChainId.COSTON].symbol, CHAINS[ChainId.COSTON].name),
   }
 
   /**

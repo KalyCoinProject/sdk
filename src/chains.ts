@@ -1,8 +1,6 @@
 export enum ChainId {
   TESTNET = 3889,
-  KALYCHAIN = 3888,
-  WAGMI = 11111,
-  COSTON = 16
+  KALYCHAIN = 3888
 }
 
 interface StakingContract {
@@ -168,28 +166,28 @@ export const KALYCHAIN_MAINNET: Chain = {
   mainnet: true,
   evm: true,
   logo: 'https://raw.githubusercontent.com/kalycoinproject/sdk/master/src/images/chains/kaly.png',
-  kalyswap_is_live: false,
+  kalyswap_is_live: true,
   tracked_by_debank: false,
   supported_by_gelato: true,
   rpc_uri: 'https://rpc.kalychain.io/rpc',
   contracts: {
-    kswap: '0x60781C2586D68229fde47564546784ab3fACA982',
-    factory: '0xefa94DE7a4656D787667C749f7E1223D71E9FD88',
-    router: '0xE54Ca86531e17Ef3616d22Ca28b0D458b6C89106',
+    kswap: '0x9C6cEF364844530d8E77032797E317154Fe88f7E',
+    factory: '0xb7b7a31C69199EB3D7378E84499c5335A9E99311',
+    router: '0xA39723dC2713C9eECe0CecC74AC519Aa2dFB4206',
     wrapped_native_token: '0x069255299Bb729399f3CECaBdc73d15d3D10a2A3',
-    local_multisig: '0xCa4a8fC696ADAE8edC042cB9E32Cd7F0A28EBdf0',
-    community_treasury: '0x650f5865541f6D68BdDFE977dB933C293EA72358',
-    treasury_vester: '0x6747AC215dAFfeE03a42F49FebB6ab448E12acEe',
-    mini_chef: '0x1f806f7C8dED893fd3caE279191ad7Aa3798E928',
-    airdrop: '0x0C58C2041da4CfCcF5818Bbe3b66DBC23B3902d9',
-    timelock: '0xEB5c91bE6Dbfd30cf616127C2EA823C64e4b1ff8',
-    governor: '0xb0Ff2b1047d9E8d294c2eD798faE3fA817F43Ee1',
-    migrator: '0x4b23Aa72A1214d0E4fd3f2c8Da7C6ba660F7483C',
+    local_multisig: '0x68F7Cb3cCbcad5a51dA2EdF8440a3c6C0da43BD7', 
+    community_treasury: '0x8f03e67507203cD2529fCa30563D6afc8cD8c51a',
+    treasury_vester: '0xc92B25cD6A7212476B43E0B4aF81b8E64257da51',
+    mini_chef: '0x339B99686985FDa456096C508f05422592a9172a',
+    airdrop: '0x1454192dA7ed44F87690A18c562525F95cCeeFdE',
+    timelock: '0x193D73B8dA367F0755BC4826011107B4931DcC6e',
+    governor: '0x06890EbF430ADE71e6C734Ba5d82164bfbbCCb5a',
+    migrator: '0x14d856578d6b86AeBE8C2ABBa4f4983C6A943EFa', 
     staking: [
       {
-        address: '0x88afdaE1a9F58Da3E68584421937E5F564A0135b',
+        address: '0x671C11C014eB43B29096Ab023360E6B21Bd126e4',
         active: true,
-        reward_token: '0x60781C2586D68229fde47564546784ab3fACA982',
+        reward_token: '0x9C6cEF364844530d8E77032797E317154Fe88f7E',
       }
     ]
   },
@@ -210,7 +208,7 @@ export const KALYCHAIN_TESTNET: Chain = {
   mainnet: false,
   evm: true,
   logo: 'https://raw.githubusercontent.com/kalycoinproject/sdk/master/src/images/chains/kaly.png',
-  kalyswap_is_live: true,
+  kalyswap_is_live: false,
   tracked_by_debank: false,
   supported_by_gelato: true,
   rpc_uri: 'https://testnetrpc.kalychain.io/rpc',
@@ -1303,8 +1301,6 @@ export const GODWOKEN_TESTNET: Chain = {
 export const CHAINS: { [chainId in ChainId ]: Chain } = {
   [ChainId.TESTNET]: KALYCHAIN_TESTNET,
   [ChainId.KALYCHAIN]: KALYCHAIN_MAINNET,
-  [ChainId.WAGMI]: WAGMI_TESTNET_SUBNET,
-  [ChainId.COSTON]: COSTON_TESTNET,
 }
 
 export const ALL_CHAINS: Chain[] = [

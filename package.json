@@ -1,7 +1,7 @@
 {
   "name": "@kalycoinproject/sdk",
   "license": "MIT",
-  "version": "2.0.11",
+  "version": "2.0.13",
   "description": "🛠 An SDK for building applications on top of KalySwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -18,11 +18,10 @@
     "lint": "tsdx lint src test",
     "build": "tsdx build",
     "start": "tsdx watch",
-    "test": "tsdx test",
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@kalycoinproject/exchange-contracts": "https://github.com/KalyCoinProject/exchange-contracts",
+    "@kalycoinproject/exchange-contracts": "^1.0.2",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",

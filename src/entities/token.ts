@@ -59,7 +59,5 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 
 export const WKLC = {
   [ChainId.TESTNET]: new Token(ChainId.TESTNET, CHAINS[ChainId.TESTNET].contracts!.wrapped_native_token,18,'WKLC','Wrapped KLC'),
-  [ChainId.KALYCHAIN]: new Token(ChainId.KALYCHAIN, CHAINS[ChainId.KALYCHAIN].contracts!.wrapped_native_token,18,'WKLC','Wrapped KLC'),
-  [ChainId.WAGMI]: new Token(ChainId.WAGMI, CHAINS[ChainId.WAGMI].contracts!.wrapped_native_token,18,'wWAGMI','Wrapped WAGMI'),
-  [ChainId.COSTON]: new Token(ChainId.COSTON, CHAINS[ChainId.COSTON].contracts!.wrapped_native_token,18,'wWAGMI','Wrapped WAGMI')
+  [ChainId.KALYCHAIN]: new Token(ChainId.KALYCHAIN, CHAINS[ChainId.KALYCHAIN].contracts!.wrapped_native_token,18,'WKLC','Wrapped KLC')
 }
