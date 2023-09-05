@@ -20,7 +20,7 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.KALYCHAIN]: CHAINS[ChainId.KALYCHAIN].contracts!.factory
 }
 
-export const INIT_CODE_HASH = '0x91b0fa855886c040a2fba5b67e7149d8d4d774e27c10798019a4ae8e3e83c5e0'
+export const INIT_CODE_HASH = '0xcfa2d7e9cd0764fe509b4440f093876b3818b0d7c932602da827129bf6738603'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 

@@ -1465,9 +1465,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@kalycoinproject/exchange-contracts@https://github.com/KalyCoinProject/exchange-contracts":
-  version "1.0.2"
-  resolved "https://github.com/KalyCoinProject/exchange-contracts#222fa025f11f30f439b53b128c0901f733b68884"
+"@kalycoinproject/exchange-contracts@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@kalycoinproject/exchange-contracts/-/exchange-contracts-2.0.3.tgz#5570315042b09063f3f2f72ff37fc0466963e438"
+  integrity sha512-5obqKD1YtDx9fdwnaElF+1Pw8E0bp23uDSHumX7DKw6drE+mkwtnEUsTZD6ceNypjzSouZzvkEjPAnQvqMENwQ==
   dependencies:
     hardhat-tracer "^1.0.0-alpha.5"
 
