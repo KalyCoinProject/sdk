@@ -170,6 +170,9 @@ export const KALYCHAIN_MAINNET: Chain = {
   tracked_by_debank: false,
   supported_by_gelato: false,
   rpc_uri: 'https://rpc.kalychain.io/rpc',
+  subgraph: {
+    exchange: 'https://graph.kalychain.io/subgraphs/name/kalyswap/exchange',
+  },
   contracts: {
     kswap: '0xCC93b84cEed74Dc28c746b7697d6fA477ffFf65a',
     factory: '0xD42Af909d323D88e0E933B6c50D3e91c279004ca',
