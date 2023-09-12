@@ -184,7 +184,7 @@ export const KALYCHAIN_MAINNET: Chain = {
     governor: '0x567371A8D2B4456061abBaf4aE4d5756e74e9458',
     staking: [
       {
-        address: '0xA9f1eB89452f825Bbc59007FAe13233953910582',
+        address: '0xA42EbDA6371358643AD4973F1fb3DA75d32af98A',
         active: true,
         reward_token: '0xCC93b84cEed74Dc28c746b7697d6fA477ffFf65a',
       }
